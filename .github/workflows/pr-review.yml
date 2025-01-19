@@ -1,27 +1,26 @@
-name: PR-Agent Code Review
+name: pr-agent
 
 on:
   pull_request:
-    types: [opened, synchronize]
+    types: [opened]
+  issue_comment:
+    types: [created, edited]
+
+permissions:
+  pull-requests: write
+  issues:        write
 
 jobs:
-  review:
+  pr_agent:
     runs-on: ubuntu-latest
+    name: Run PR Agent
+    if: ${{ github.event.sender.type != 'Bot' }}
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Set up Python
-        uses: actions/setup-python@v3
-        with:
-          python-version: "3.9"
-
-      - name: Install PR-Agent
-        run: |
-          pip install -r https://github.com/Codium-ai/pr-agent/raw/main/requirements.txt
-
-      - name: Run PR-Agent
-        run: |
-          python -m pr_agent --repo ${{ github.repository }} --pr ${{ github.event.pull_request.number }}
+      - id: pr-agent
+        uses: Codium-ai/pr-agent@v0.11
         env:
-          GITHUB_TOKEN: ${{ secrets.PR_AGENT_GITHUB_TOKEN }}
+          OPENAI_KEY:   ${{ secrets.OPENAI_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_action.auto_describe: true
+          github_action.auto_review:   true
+          github_action.auto_improve:  false
