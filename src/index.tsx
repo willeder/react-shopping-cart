@@ -15,7 +15,7 @@ import App from 'components/App';
 const root = document.getElementById('root')!;
 const container = ReactDOMClient.createRoot(root);
 
-// TODO:
+// TODO: do test pr review
 
 container.render(
   <StrictMode>
