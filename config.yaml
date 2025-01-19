@@ -1,0 +1,16 @@
+github:
+  token: "${PR_AGENT_GITHUB_TOKEN}"  # Replace with your GitHub PAT
+  organization: "Willeder-Inc"
+  repositories:
+    - "react-shopping-cart"
+
+review_rules:
+  react_best_practices:
+    enforce_hook_rules: true
+    check_key_usage_in_lists: true
+    ensure_error_boundaries: true
+    suggest_memoization: true
+  performance_checks:
+    avoid_unnecessary_rerenders: true
+  code_style:
+    enforce_eslint_rules: true
