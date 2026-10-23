@@ -7,7 +7,7 @@ Object {
     <div>
       <a
         aria-label="View source on Github"
-        class="GithubCorner__Container-sc-15lbmbx-1 ilzGAu"
+        class="GithubCorner__Container-sc-15lbmbx-1 fMxMNd"
         href="https://github.com/jeffersonRibeiro/react-shopping-cart"
       >
         <svg
@@ -37,7 +37,7 @@ Object {
   "container": <div>
     <a
       aria-label="View source on Github"
-      class="GithubCorner__Container-sc-15lbmbx-1 ilzGAu"
+      class="GithubCorner__Container-sc-15lbmbx-1 fMxMNd"
       href="https://github.com/jeffersonRibeiro/react-shopping-cart"
     >
       <svg

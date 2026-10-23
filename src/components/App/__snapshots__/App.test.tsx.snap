@@ -9,7 +9,7 @@ Object {
         class="App__Container-sc-ebmerl-0"
       >
         <div
-          class="Loader__Container-sc-5z440p-0 fnqXlG"
+          class="Loader__Container-sc-5z440p-0 gTKgSp"
         >
           <div />
           <div />
@@ -18,7 +18,7 @@ Object {
         </div>
         <a
           aria-label="View source on Github"
-          class="GithubCorner__Container-sc-15lbmbx-1 ilzGAu"
+          class="GithubCorner__Container-sc-15lbmbx-1 fMxMNd"
           href="https://github.com/jeffersonRibeiro/react-shopping-cart"
         >
           <svg
@@ -44,10 +44,10 @@ Object {
           </svg>
         </a>
         <div
-          class="Recruiter__Container-sc-joc36b-0 kBiQYf"
+          class="Recruiter__Container-sc-joc36b-0 hjYCKU"
         >
           <div
-            class="Recruiter__Thumbnail-sc-joc36b-1 kjTKfY"
+            class="Recruiter__Thumbnail-sc-joc36b-1 hdBJhP"
           >
             <img
               alt="Jeremy Akeze - Doghouse IT Recruitment"
@@ -55,12 +55,12 @@ Object {
             />
           </div>
           <div
-            class="Recruiter__Description-sc-joc36b-3 cHLwtY"
+            class="Recruiter__Description-sc-joc36b-3 fykvtX"
           >
             <h4>
               Work in the Netherlands
               <span
-                class="Recruiter__Flag-sc-joc36b-2 eJBRMS"
+                class="Recruiter__Flag-sc-joc36b-2 jjzYcF"
               />
             </h4>
             <p>
@@ -77,21 +77,21 @@ Object {
           </div>
         </div>
         <main
-          class="App__TwoColumnGrid-sc-ebmerl-1 hularM"
+          class="App__TwoColumnGrid-sc-ebmerl-1 eQBQMX"
         >
           <div
-            class="App__Side-sc-ebmerl-2 dnqiC"
+            class="App__Side-sc-ebmerl-2 ifSoWV"
           >
             <div
               class="Filter__Container-sc-bj2vay-0"
             >
               <h4
-                class="Filter__Title-sc-bj2vay-2 cVDNWF"
+                class="Filter__Title-sc-bj2vay-2 gmZMUe"
               >
                 Sizes:
               </h4>
               <div
-                class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+                class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
               >
                 <label>
                   <input
@@ -107,7 +107,7 @@ Object {
                 </label>
               </div>
               <div
-                class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+                class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
               >
                 <label>
                   <input
@@ -123,7 +123,7 @@ Object {
                 </label>
               </div>
               <div
-                class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+                class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
               >
                 <label>
                   <input
@@ -139,7 +139,7 @@ Object {
                 </label>
               </div>
               <div
-                class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+                class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
               >
                 <label>
                   <input
@@ -155,7 +155,7 @@ Object {
                 </label>
               </div>
               <div
-                class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+                class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
               >
                 <label>
                   <input
@@ -171,7 +171,7 @@ Object {
                 </label>
               </div>
               <div
-                class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+                class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
               >
                 <label>
                   <input
@@ -187,7 +187,7 @@ Object {
                 </label>
               </div>
               <div
-                class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+                class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
               >
                 <label>
                   <input
@@ -228,7 +228,7 @@ Object {
             class="App__Main-sc-ebmerl-3"
           >
             <main
-              class="App__MainHeader-sc-ebmerl-4 jvDqsc"
+              class="App__MainHeader-sc-ebmerl-4 gAUrOP"
             >
               <p>
                 0
@@ -236,21 +236,21 @@ Object {
               </p>
             </main>
             <div
-              class="Products__Container-sc-uhudcz-0 kTCRJn"
+              class="Products__Container-sc-uhudcz-0 ftEhss"
             />
           </main>
         </main>
         <div
-          class="Cart__Container-sc-1h98xa9-1 OVjcy"
+          class="Cart__Container-sc-1h98xa9-1 bYpqyd"
         >
           <button
-            class="Cart__CartButton-sc-1h98xa9-0 Xqoyz"
+            class="Cart__CartButton-sc-1h98xa9-0 iUWtRE"
           >
             <div
-              class="Cart__CartIcon-sc-1h98xa9-2 dFOmZq"
+              class="Cart__CartIcon-sc-1h98xa9-2 gagYBJ"
             >
               <div
-                class="Cart__CartQuantity-sc-1h98xa9-3 gkShyn"
+                class="Cart__CartQuantity-sc-1h98xa9-3 cZGDzk"
                 title="Products in cart quantity"
               >
                 0
@@ -266,7 +266,7 @@ Object {
       class="App__Container-sc-ebmerl-0"
     >
       <div
-        class="Loader__Container-sc-5z440p-0 fnqXlG"
+        class="Loader__Container-sc-5z440p-0 gTKgSp"
       >
         <div />
         <div />
@@ -275,7 +275,7 @@ Object {
       </div>
       <a
         aria-label="View source on Github"
-        class="GithubCorner__Container-sc-15lbmbx-1 ilzGAu"
+        class="GithubCorner__Container-sc-15lbmbx-1 fMxMNd"
         href="https://github.com/jeffersonRibeiro/react-shopping-cart"
       >
         <svg
@@ -301,10 +301,10 @@ Object {
         </svg>
       </a>
       <div
-        class="Recruiter__Container-sc-joc36b-0 kBiQYf"
+        class="Recruiter__Container-sc-joc36b-0 hjYCKU"
       >
         <div
-          class="Recruiter__Thumbnail-sc-joc36b-1 kjTKfY"
+          class="Recruiter__Thumbnail-sc-joc36b-1 hdBJhP"
         >
           <img
             alt="Jeremy Akeze - Doghouse IT Recruitment"
@@ -312,12 +312,12 @@ Object {
           />
         </div>
         <div
-          class="Recruiter__Description-sc-joc36b-3 cHLwtY"
+          class="Recruiter__Description-sc-joc36b-3 fykvtX"
         >
           <h4>
             Work in the Netherlands
             <span
-              class="Recruiter__Flag-sc-joc36b-2 eJBRMS"
+              class="Recruiter__Flag-sc-joc36b-2 jjzYcF"
             />
           </h4>
           <p>
@@ -334,21 +334,21 @@ Object {
         </div>
       </div>
       <main
-        class="App__TwoColumnGrid-sc-ebmerl-1 hularM"
+        class="App__TwoColumnGrid-sc-ebmerl-1 eQBQMX"
       >
         <div
-          class="App__Side-sc-ebmerl-2 dnqiC"
+          class="App__Side-sc-ebmerl-2 ifSoWV"
         >
           <div
             class="Filter__Container-sc-bj2vay-0"
           >
             <h4
-              class="Filter__Title-sc-bj2vay-2 cVDNWF"
+              class="Filter__Title-sc-bj2vay-2 gmZMUe"
             >
               Sizes:
             </h4>
             <div
-              class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+              class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
             >
               <label>
                 <input
@@ -364,7 +364,7 @@ Object {
               </label>
             </div>
             <div
-              class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+              class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
             >
               <label>
                 <input
@@ -380,7 +380,7 @@ Object {
               </label>
             </div>
             <div
-              class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+              class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
             >
               <label>
                 <input
@@ -396,7 +396,7 @@ Object {
               </label>
             </div>
             <div
-              class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+              class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
             >
               <label>
                 <input
@@ -412,7 +412,7 @@ Object {
               </label>
             </div>
             <div
-              class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+              class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
             >
               <label>
                 <input
@@ -428,7 +428,7 @@ Object {
               </label>
             </div>
             <div
-              class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+              class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
             >
               <label>
                 <input
@@ -444,7 +444,7 @@ Object {
               </label>
             </div>
             <div
-              class="Filter__Checkbox-sc-bj2vay-1 cUzHAu"
+              class="Filter__Checkbox-sc-bj2vay-1 izYNeF"
             >
               <label>
                 <input
@@ -485,7 +485,7 @@ Object {
           class="App__Main-sc-ebmerl-3"
         >
           <main
-            class="App__MainHeader-sc-ebmerl-4 jvDqsc"
+            class="App__MainHeader-sc-ebmerl-4 gAUrOP"
           >
             <p>
               0
@@ -493,21 +493,21 @@ Object {
             </p>
           </main>
           <div
-            class="Products__Container-sc-uhudcz-0 kTCRJn"
+            class="Products__Container-sc-uhudcz-0 ftEhss"
           />
         </main>
       </main>
       <div
-        class="Cart__Container-sc-1h98xa9-1 OVjcy"
+        class="Cart__Container-sc-1h98xa9-1 bYpqyd"
       >
         <button
-          class="Cart__CartButton-sc-1h98xa9-0 Xqoyz"
+          class="Cart__CartButton-sc-1h98xa9-0 iUWtRE"
         >
           <div
-            class="Cart__CartIcon-sc-1h98xa9-2 dFOmZq"
+            class="Cart__CartIcon-sc-1h98xa9-2 gagYBJ"
           >
             <div
-              class="Cart__CartQuantity-sc-1h98xa9-3 gkShyn"
+              class="Cart__CartQuantity-sc-1h98xa9-3 cZGDzk"
               title="Products in cart quantity"
             >
               0
