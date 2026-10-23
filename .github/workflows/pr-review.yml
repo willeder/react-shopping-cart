@@ -14,10 +14,23 @@ jobs:
   pr_agent:
     runs-on: ubuntu-latest
     name: Run PR Agent
-    if: ${{ github.event.sender.type != 'Bot' }}
+    # issue_comment はリポジトリ外の第三者も投稿できるため、
+    # PR 上のコメントかつ OWNER / MEMBER / COLLABORATOR の場合のみ実行する
+    if: >-
+      ${{
+        github.event.sender.type != 'Bot' &&
+        (
+          github.event_name == 'pull_request' ||
+          (
+            github.event_name == 'issue_comment' &&
+            github.event.issue.pull_request &&
+            contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
+          )
+        )
+      }}
     steps:
       - id: pr-agent
-        uses: Codium-ai/pr-agent@v0.11
+        uses: Codium-ai/pr-agent@a7a0de764ce958672dc6599f734aca78ac8398cb # v0.11
         env:
           OPENAI_KEY:   ${{ secrets.OPENAI_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
