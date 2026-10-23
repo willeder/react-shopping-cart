@@ -1,5 +1,6 @@
 github:
-  token: "${PR_AGENT_GITHUB_TOKEN}"  # Replace with your GitHub PAT
+  # トークンはこのファイルに書かないこと。GitHub Actions の secrets.GITHUB_TOKEN
+  # （または GitHub Secrets / 環境変数）からのみ注入する。
   organization: "Willeder-Inc"
   repositories:
     - "react-shopping-cart"
